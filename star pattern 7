@@ -1,0 +1,25 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// star pattern 10
+	int i,j,k=0,rows,n;
+    cout<<"enter no of rows:"<<endl;
+    cin>>rows;
+    n=(rows+1)/2;
+    for(i=1;i<=rows;i++)
+    {
+        i<=n?k++:k--;
+        for(j=1;j<=rows;j++)
+        {   
+            if(j>=n+1-k&&j<=n-1+k){
+            cout<<"*";}
+            else
+            cout<<" ";
+        }
+       
+        cout<<"\n";
+   }
+}
+
