@@ -1,0 +1,23 @@
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// star pattern 15
+    int i,j,k=0,x;
+    for(i=1;i<=9;i++){
+        x=1;
+        i<6?k++:k--;
+        for(j=1;j<=5;j++){
+            if(j>=6-k){
+            cout<<x;
+            x++;}
+            else {
+             
+            cout<<" ";}
+        }
+      
+        cout<<"\n";
+    }
+
+}
