@@ -12,6 +12,7 @@ int main() {
             --k;}
             else{
             cout<<" ";}
+	    
         }
         cout<<"\n";
 	}
